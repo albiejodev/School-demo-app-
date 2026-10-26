@@ -148,3 +148,131 @@
   .role-select-wrap select{width:auto;min-width:76px;color:#40516e;font-size:11px}
   .role-select-wrap{gap:5px}
 }
+
+/* Metric icons sit in their own corner instead of the label's text flow. */
+.metric-card .metric-icon{position:absolute;z-index:2;top:15px;right:15px}
+.metric-card .metric-label{max-width:calc(100% - 44px);min-height:1.35em}
+@media(max-width:650px){.metric-card .metric-icon{top:11px;right:11px}}
+
+/* Improve desktop hierarchy: headings and their supporting copy should scan comfortably. */
+@media(min-width:901px){
+  .nav-item{font-size:13px}
+  .topbar>div{font-size:13px}
+  .top-search input{font-size:14px}
+  .top-search kbd{font-size:11px}
+  .role-select-wrap select{font-size:13px}
+  .page-heading p{font-size:15px}
+  .eyebrow{font-size:11px}
+  .metric-label{font-size:14px}
+  .metric-note{font-size:13px}
+  .panel-heading h2{font-size:17px}
+  .panel-heading p{font-size:14px}
+  .text-link,.primary-button,.subtle-button{font-size:14px}
+  .primary-button{min-height:42px}
+  .date-button,.child-switch,.child-switch>span{font-size:14px}
+  .child-switch small{font-size:12px}
+  .field-select,.text-field{font-size:15px;min-height:42px}
+  .form-row label{font-size:13px}
+  .composer-footer>span{font-size:13px}
+  .notice-meta{font-size:12px}
+  .notice-kind{font-size:11px}
+  .notice-card h3{font-size:16px;line-height:1.35}
+  .notice-card p{font-size:14px;line-height:1.6}
+  .notice-footer,.notice-footer span{font-size:12px}
+  .notice-filter{font-size:14px}
+  .privacy-label{font-size:12px}
+  .welcome-tag{font-size:11px}
+  .teacher-welcome p,.parent-hero p{font-size:14px}
+  .parent-hero-stat{font-size:13px}
+  .parent-hero-stat small{font-size:12px}
+  .light-action{font-size:14px;min-height:42px;height:auto}
+  .art-pill{font-size:12px}
+  .art-pill span{font-size:11px}
+  .schedule-time{font-size:14px}
+  .schedule-info strong{font-size:15px}
+  .schedule-info span{font-size:13px}
+  .quick-action-list strong,.signal-list strong{font-size:15px}
+  .quick-action-list small,.signal-list small{font-size:13px;line-height:1.45}
+  .family-guide strong{font-size:15px}
+  .family-guide small{font-size:13px}
+  .progress-row,.progress-row strong{font-size:14px}
+  .progress-row em{font-size:13px}
+  .teacher-card>strong{font-size:15px}
+  .teacher-card>span,.teacher-card>small{font-size:13px}
+  .family-week strong{font-size:14px}
+  .family-week small{font-size:13px}
+  .week-date{font-size:10px}
+  .week-date b{font-size:15px}
+  .fee-highlight p{font-size:14px}
+  .simple-row-title{font-size:14px}
+  .simple-row-detail,.simple-row-end{font-size:13px}
+  .student-table-head{font-size:12px}
+  .student-table-row,.student-cell strong{font-size:14px}
+  .attendance-summary p{font-size:14px}
+  .roster-name strong{font-size:14px}
+  .roster-name span{font-size:13px}
+  .status-toggle{font-size:13px;min-height:38px}
+  .sticky-action>span{font-size:13px}
+  .event-date span{font-size:11px}
+  .event-row strong{font-size:14px}
+  .event-row>div:nth-child(2)>span{font-size:13px}
+  .module-tile strong,.class-tile strong{font-size:15px}
+  .module-tile span,.class-tile>span{font-size:13px;line-height:1.45}
+  .ai-hero h2{font-size:25px}
+  .ai-hero>p{font-size:15px;line-height:1.65}
+  .ai-prompt>span,.ai-prompt input{font-size:14px}
+  .ai-prompt button,.ai-chips button{font-size:13px}
+  .ai-insight-grid>div{font-size:13px;line-height:1.45}
+  .principal-copy>p{font-size:14px;line-height:1.65}
+  .hero-orbit-inner span{font-size:8px}
+  .hero-float small{font-size:10px}
+  .chart-y,.chart-x{font-size:11px}
+  .chart-foot{font-size:13px}
+}
+
+/* Carry the blue identity through the workspace instead of relying on white surfaces. */
+:root{--background:#edf3fb}
+html,body{background:#edf3fb}
+.app-shell{background:#edf3fb}
+.app-sidebar{background:#f5f8fd;border-right-color:#dce6f3}
+.topbar{background:rgba(241,246,253,.94);border-bottom-color:#dce6f3}
+.workspace-content{background:transparent}
+.panel{background:linear-gradient(145deg,#f5f8ff 0%,#eaf2fd 100%);border-color:#d7e3f3;box-shadow:0 8px 22px #294d7b12,inset 0 1px #ffffffb8}
+.teacher-card{background:linear-gradient(145deg,#eaf2ff 0%,#dfeaff 100%);border-color:#cddcf2;box-shadow:0 7px 18px #31598d12;}
+.teacher-card:nth-child(4n+2){background:linear-gradient(145deg,#e9f5ff 0%,#dceefb 100%);border-color:#cde2f2}
+.teacher-card:nth-child(4n+3){background:linear-gradient(145deg,#eef1ff 0%,#e2e8fb 100%);border-color:#d3dcf3}
+.teacher-card:nth-child(4n+4){background:linear-gradient(145deg,#e8f3fb 0%,#dceaf6 100%);border-color:#cedfec}
+.teacher-card:hover{border-color:#a9c4eb;box-shadow:0 12px 24px #31598d1c}
+.teacher-card .avatar-chip{background:linear-gradient(145deg,#d2e2ff,#c5d9ff);color:#3e69b5}
+.teacher-card:nth-child(4n+2) .avatar-chip{background:linear-gradient(145deg,#cfeaff,#bfe0f7);color:#397ca7}
+.teacher-card:nth-child(4n+3) .avatar-chip{background:linear-gradient(145deg,#dcdfff,#cbd5fa);color:#5b66b1}
+.teacher-card:nth-child(4n+4) .avatar-chip{background:linear-gradient(145deg,#d2e9f5,#c3dfea);color:#417d92}
+.class-tile{background:linear-gradient(145deg,#edf4ff,#e1ecfb);border-color:#d4e1f2}
+.class-tile:nth-child(3n+2){background:linear-gradient(145deg,#eaf5ff,#dceefa);border-color:#d0e3f1}
+.class-tile:nth-child(3n){background:linear-gradient(145deg,#edf0ff,#e2e8fb);border-color:#d8def1}
+.notice-card{background:linear-gradient(100deg,#f0f6ff,#eaf2fd);border:1px solid #dfe9f7;border-radius:12px;padding:13px;margin:8px 0}
+.notice-card:first-child{padding-top:13px}
+.notice-card:hover{background:linear-gradient(100deg,#e8f1ff,#e2edfc)}
+.notice-icon{background:#dceaff;color:#3976d7}
+.notice-kind{background:#dfeaff;color:#466fae}
+.compact-feed .notice-card{padding:11px;margin:5px 0}
+.roster-list{background:linear-gradient(145deg,#f5f9ff,#eaf2fc);border-color:#d7e3f1}
+.roster-row{border-color:#dce7f4}
+.student-table{background:#f3f7fd;border-color:#d6e2f1}
+.student-table-head{background:#e5eefb;color:#617795}
+.student-table-row{border-color:#dfe8f4}
+.student-table-row:nth-child(odd){background:#edf4fd}
+.family-guide{background:linear-gradient(110deg,#e8f1ff,#e1effb);border-color:#d1e0f2}
+.quick-icon{background:#dceaff;color:#3f76d2}
+.quick-ai{background:#e6e7ff;color:#675fc5}
+.event-date{background:#dceaff;color:#426fb8}
+.module-grid{background:#d7e4f2;border-color:#d7e4f2}
+.module-tile{background:#eef4fc}
+.module-tile:nth-child(4n+2),.module-tile:nth-child(4n+3){background:#e5effb}
+.ai-hero{background:radial-gradient(ellipse at 100% 0,#d3e3ff 0,transparent 46%),linear-gradient(130deg,#f2f7ff,#e5effd);border-color:#cfddf2;box-shadow:0 10px 26px #315a9415}
+.ai-prompt{background:#f5f8fd;border-color:#d5e2f2}
+.ai-chips button{background:#edf4fd;border-color:#d4e1f1}
+.attendance-summary,.fee-highlight{background:linear-gradient(120deg,#e4efff,#f0f6fd);border-color:#cfdef2}
+.simple-row{border-color:#dfe8f3}
+.composer{background:linear-gradient(140deg,#f4f8ff,#e7f0fc);border-color:#cbddf5}
+.notice-filter{background:#eff5fd;border-color:#d5e2f2}
