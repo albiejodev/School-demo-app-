@@ -33,3 +33,118 @@
 .student-table{box-shadow:0 7px 20px #294d7b0b}
 .attendance-summary{box-shadow:0 6px 17px #3977ed0a}
 .quick-action-list>button:hover,.signal-list>button:hover{background:linear-gradient(90deg,#f7faff,#fff);padding-left:7px;border-radius:8px}
+
+/* Keep every role comfortably readable on phones and narrow tablets. */
+@media(max-width:900px){
+  body{font-size:16px}
+  .page-heading h1{font-size:28px}
+  .page-heading p{font-size:15px;line-height:1.55}
+  .eyebrow{font-size:11px;letter-spacing:.12em}
+  .metric-label{font-size:13px}
+  .metric-value{font-size:26px}
+  .metric-note{font-size:13px;line-height:1.4}
+  .panel-heading h2{font-size:16px}
+  .panel-heading p{font-size:13px;line-height:1.5}
+  .text-link,.primary-button,.subtle-button{font-size:13px}
+  .primary-button{min-height:42px;padding-inline:15px}
+  .date-button,.child-switch{font-size:13px}
+  .child-switch>span{font-size:13px}
+  .child-switch small{font-size:12px}
+  .field-select,.text-field{font-size:16px;min-height:44px}
+  .form-row label{font-size:13px}
+  .composer-footer>span{font-size:13px}
+  .notice-meta{font-size:12px}
+  .notice-kind{font-size:11px}
+  .notice-card h3{font-size:15px;line-height:1.35}
+  .notice-card p{font-size:14px;line-height:1.55}
+  .notice-footer{font-size:12px;gap:10px}
+  .notice-footer span{font-size:12px}
+  .notice-filter{font-size:13px}
+  .privacy-label{font-size:12px}
+  .welcome-tag{font-size:11px}
+  .teacher-welcome h2,.parent-hero h2{font-size:23px}
+  .teacher-welcome p,.parent-hero p{font-size:14px;line-height:1.6}
+  .light-action{font-size:13px;min-height:40px;height:auto}
+  .art-pill{font-size:12px}
+  .art-pill span{font-size:11px}
+  .schedule-time{font-size:13px}
+  .schedule-info strong{font-size:14px}
+  .schedule-info span{font-size:12px}
+  .quick-action-list strong,.signal-list strong{font-size:14px}
+  .quick-action-list small,.signal-list small{font-size:12px;line-height:1.45}
+  .family-guide strong{font-size:14px}
+  .family-guide small{font-size:12px}
+  .progress-row{font-size:13px}
+  .progress-row strong{font-size:13px}
+  .progress-row em{font-size:12px}
+  .teacher-card>strong{font-size:14px}
+  .teacher-card>span,.teacher-card>small{font-size:12px}
+  .family-week strong{font-size:13px}
+  .family-week small{font-size:12px}
+  .fee-highlight p{font-size:13px}
+  .simple-row-title{font-size:13px}
+  .simple-row-detail,.simple-row-end{font-size:12px}
+  .student-table-head{font-size:11px}
+  .student-table-row,.student-cell strong{font-size:13px}
+  .attendance-summary p{font-size:13px}
+  .roster-name strong{font-size:13px}
+  .roster-name span{font-size:12px}
+  .status-toggle{font-size:12px;min-height:36px}
+  .sticky-action>span{font-size:12px}
+  .event-date span{font-size:10px}
+  .event-row strong{font-size:13px}
+  .event-row>div:nth-child(2)>span{font-size:12px}
+  .module-tile strong,.class-tile strong{font-size:14px}
+  .module-tile span,.class-tile>span{font-size:12px;line-height:1.4}
+  .ai-hero h2{font-size:23px}
+  .ai-hero>p{font-size:14px;line-height:1.6}
+  .ai-prompt>span,.ai-prompt input{font-size:14px}
+  .ai-prompt button,.ai-chips button{font-size:12px}
+  .ai-insight-grid>div{font-size:12px;line-height:1.4}
+  .principal-copy h2{font-size:26px}
+  .principal-copy>p{font-size:14px;line-height:1.6}
+  .hero-orbit-inner span{font-size:8px}
+  .hero-float small{font-size:10px}
+  .chart-y,.chart-x{font-size:11px}
+  .chart-foot{font-size:12px}
+}
+@media(max-width:650px){
+  .page-heading h1{font-size:28px}
+  .page-heading p{font-size:15px}
+  .eyebrow{font-size:11px}
+  .metric-card{min-height:116px;padding:14px}
+  .metric-label{font-size:12px}
+  .metric-value{font-size:25px;margin-top:12px}
+  .metric-note{font-size:12px}
+  .panel-heading h2{font-size:16px}
+  .panel-heading p{font-size:12px}
+  .notice-card h3{font-size:15px}
+  .notice-card p{font-size:14px}
+  .notice-footer span{font-size:11px}
+  .progress-row{grid-template-columns:92px minmax(30px,1fr) 34px 30px;gap:7px;font-size:12px}
+  .progress-row strong{font-size:12px}
+  .progress-row em{font-size:11px}
+  .teacher-card>strong{font-size:13px}
+  .teacher-card>span,.teacher-card>small{font-size:11px}
+  .schedule-info strong{font-size:12px}
+  .schedule-info span{font-size:11px}
+  .subtle-button{font-size:11px}
+  .quick-action-list strong,.signal-list strong{font-size:13px}
+  .quick-action-list small,.signal-list small{font-size:11px}
+  .family-guide strong{font-size:13px}
+  .family-guide small{font-size:11px}
+  .simple-row-title{font-size:12px}
+  .simple-row-detail,.simple-row-end{font-size:11px}
+  .roster-name strong{font-size:12px}
+  .roster-name span{font-size:11px}
+  .status-toggle{font-size:11px;min-width:90px}
+  .sticky-action>span{font-size:11px}
+  .module-tile strong,.class-tile strong{font-size:13px}
+  .module-tile span,.class-tile>span{font-size:11px}
+  .ai-prompt>span,.ai-prompt input{font-size:13px}
+  .ai-chips button{font-size:11px}
+  .chart-y,.chart-x{font-size:10px}
+  .chart-foot{font-size:11px}
+  .role-select-wrap select{width:auto;min-width:76px;color:#40516e;font-size:11px}
+  .role-select-wrap{gap:5px}
+}
