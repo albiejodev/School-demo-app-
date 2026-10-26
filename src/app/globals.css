@@ -276,3 +276,27 @@ html,body{background:#edf3fb}
 .simple-row{border-color:#dfe8f3}
 .composer{background:linear-gradient(140deg,#f4f8ff,#e7f0fc);border-color:#cbddf5}
 .notice-filter{background:#eff5fd;border-color:#d5e2f2}
+
+/* Dashboard cards use calm, solid tints; reserve gradients for the hero banners. */
+.metric-card{background:#eaf2ff;border-color:#d4e2f6}
+.metric-card:nth-child(4n+2){background:#e7f4ee;border-color:#d2e8dc}
+.metric-card:nth-child(4n+3){background:#efedff;border-color:#dcd9f4}
+.metric-card:nth-child(4n+4){background:#fff3df;border-color:#f0e1c4}
+.metric-card:after{display:none}
+.panel{background:#eef4fc;border-color:#d8e4f2}
+.teacher-card{background:#e8f1ff;border-color:#ccdcf2}
+.teacher-card:nth-child(4n+2){background:#e4f2fc;border-color:#cde1f0}
+.teacher-card:nth-child(4n+3){background:#eceeff;border-color:#d5daf2}
+.teacher-card:nth-child(4n+4){background:#e4eff7;border-color:#cbdde9}
+.class-tile{background:#e8f1fd;border-color:#d2e0f1}
+.class-tile:nth-child(3n+2){background:#e3f1fa;border-color:#cfe2ef}
+.class-tile:nth-child(3n){background:#eaedfc;border-color:#d7def2}
+.notice-card{background:#eaf2fc;border-color:#d8e4f2}
+.notice-card:first-child{padding-top:13px}
+.notice-card:hover{background:#e3edfa}
+.family-guide{background:#e5effd;border-color:#d0dff2}
+.ai-hero{background:#eaf2ff;border-color:#d0def2}
+.ai-prompt{background:#f0f5fc}
+.ai-chips button{background:#e5eefb}
+.attendance-summary,.fee-highlight{background:#e5efff;border-color:#d0def1}
+.composer{background:#eaf2ff;border-color:#cfdef2}
